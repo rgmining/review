@@ -1,0 +1,36 @@
+review package
+==============
+
+.. automodule:: review
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+Submodules
+----------
+
+review.base module
+------------------
+
+.. automodule:: review.base
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+review.histogram module
+-----------------------
+
+.. automodule:: review.histogram
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+review.scalar module
+--------------------
+
+.. automodule:: review.scalar
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
