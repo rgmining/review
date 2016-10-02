@@ -11,12 +11,15 @@ from review.base import Summary
 class AverageReview(Review):
     """Scalar review.
 
+    Args:
+      v: a float value representing review score.
+
     The review score is a scalar value.
     """
     __slots__ = ("_v")
 
     def __init__(self, v):
-        """ Construct average review class.
+        """Construct average review class.
 
         Args:
           v: a float value representing review score.
@@ -95,7 +98,7 @@ class AverageSummary(Summary):
 
     @property
     def v(self):
-        """ Summary score.
+        """Summary score.
         """
         return self._v.score
 

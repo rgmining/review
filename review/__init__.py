@@ -1,9 +1,9 @@
 """Review data model consisting of review and summary.
 
-This module defines abstract :class:`review.Review` and :class:`review.Summary`,
-and those implementations.
-:class:`review.Review` represents review itself and :class:`review.Summary` is
-a summarized reviews given to a same object.
+This module defines abstract :class:`review.base.Review` and
+:class:`review.base.Summary`, and those implementations.
+:class:`review.base.Review` represents review itself and
+:class:`review.base.Summary` is a summarized reviews given to a same object.
 
 This module assumes each review is representable in one scalar value,
 and those review values are in a multipliable additive group.
