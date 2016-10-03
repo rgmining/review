@@ -1,5 +1,8 @@
 Review data structure
 =========================
+.. raw:: html
+
+   <div class="addthis_inline_share_toolbox"></div>
 
 This package defines a data structure of review data.
 We assume review data consist of reviews and summaries.
