@@ -13,6 +13,15 @@ This package defines two types of reviews and those summaries;
 scalar review and vector review.
 
 
+Installation
+--------------
+Use `pip` to install this package.
+
+.. code-block:: bash
+
+   pip install --upgrade rgmining-review
+
+
 API Reference
 ---------------
 .. toctree::
@@ -22,14 +31,14 @@ API Reference
   modules/*
 
 
-License
----------
-This software is released under The GNU General Public License Version 3,
-see COPYING for more detail.
-
-
 Indices and tables
 --------------------
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+License
+---------
+This software is released under The GNU General Public License Version 3,
+see COPYING for more detail.
