@@ -45,5 +45,15 @@ setup(
     url="https://github.com/rgmining/common",
     packages=find_packages(exclude=["tests"]),
     install_requires=_load_requires_from_file("requirements.txt"),
-    test_suite='tests.suite'
+    test_suite='tests.suite',
+    license="GPLv3",
+    classifiers=[
+            "Development Status :: 4 - Beta",
+            "Intended Audience :: Science/Research",
+            "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+            "Natural Language :: English",
+            "Programming Language :: Python",
+            "Topic :: Software Development :: Libraries",
+            "Topic :: Scientific/Engineering :: Information Analysis"
+        ]
 )
