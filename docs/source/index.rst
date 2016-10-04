@@ -13,6 +13,15 @@ This package defines two types of reviews and those summaries;
 scalar review and vector review.
 
 
+Installation
+--------------
+Use `pip` to install this package.
+
+.. code-block:: bash
+
+   pip install --upgrade rgmining-review
+
+
 API Reference
 ---------------
 .. toctree::

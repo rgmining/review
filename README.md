@@ -14,6 +14,14 @@ vector review.
 See [documents](https://rgmining.github.io/review/) for more information.
 
 
+## Installation
+Use `pip` to install this package.
+
+```
+pip install --upgrade rgmining-review
+```
+
+
 ## License
 This software is released under The GNU General Public License Version 3,
 see [COPYING](COPYING) for more detail.
