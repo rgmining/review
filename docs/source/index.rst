@@ -22,14 +22,14 @@ API Reference
   modules/*
 
 
-License
----------
-This software is released under The GNU General Public License Version 3,
-see COPYING for more detail.
-
-
 Indices and tables
 --------------------
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+License
+---------
+This software is released under The GNU General Public License Version 3,
+see COPYING for more detail.
