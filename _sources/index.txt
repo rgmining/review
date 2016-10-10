@@ -33,13 +33,6 @@ API Reference
   modules/*
 
 
-Indices and tables
---------------------
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-
 License
 ---------
 This software is released under The GNU General Public License Version 3,
