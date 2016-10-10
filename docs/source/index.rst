@@ -1,3 +1,5 @@
+.. _top:
+
 Review data structure
 =========================
 .. raw:: html

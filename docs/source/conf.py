@@ -12,10 +12,10 @@
 #
 # All configuration values have a default; values that are commented out
 # serve to show the default.
-
 import sys
 from os import path
 import sphinx_rtd_theme
+
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -127,6 +127,13 @@ todo_include_todos = False
 # To add GitHub link.
 rst_prolog = """
 :github_url: https://github.com/rgmining/review
+:base_url: https://rgmining.github.io/review/
+:description: This package defines a data structure of review data.
+    We assume review data consist of reviews and summaries.
+    A review is a set of information a user posts to a product.
+    On the other hand, a summary is computed from a set of reviews.
+    This package defines two types of reviews and those summaries;
+    scalar review and vector review.
 """
 
 # -- Options for HTML output ----------------------------------------------
@@ -225,7 +232,7 @@ html_static_path = ['_static']
 # contain a <link> tag referring to it.  The value of this option must be the
 # base URL from which the finished HTML is served.
 #
-# html_use_opensearch = ''
+html_use_opensearch = 'https://docs.python.org'
 
 # This is the file name suffix for HTML files (e.g. ".xhtml").
 # html_file_suffix = None
