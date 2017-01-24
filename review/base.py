@@ -90,8 +90,14 @@ class Review(_MultipliableImmutableAdditiveGroup):
 
     Review also needs to implement a property `score` to return the review
     score itselt. The returned score must be a float number.
+
+    Attribute:
+      date: the date when this review was posted.
     """
-    __slots__ = ()
+    __slots__ = ("date")
+
+    def __init__(self, date=None):
+        self.date = date
 
     def __mul__(self, other):
         return self.__rmul__(other)

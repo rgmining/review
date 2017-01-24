@@ -35,7 +35,8 @@ class HistoReview(Review):
     """
     __slots__ = ("_v")
 
-    def __init__(self, v, quantizer=round):
+    def __init__(self, v, quantizer=round, date=None):
+        super(HistoReview, self).__init__(date)
         self._v = {}
         if isinstance(v, dict):
             for key, value in v.items():

@@ -38,12 +38,14 @@ class AverageReview(Review):
     """
     __slots__ = ("_v")
 
-    def __init__(self, v):
+    def __init__(self, v, date=None):
         """Construct average review class.
 
         Args:
           v: a float value representing review score.
+          date: the date when this review was posted (default: None).
         """
+        super(AverageReview, self).__init__(date)
         if not isinstance(v, numbers.Number):
             raise TypeError("v ({0}) is not a scalar value.".format(type(v)))
         self._v = float(v)
