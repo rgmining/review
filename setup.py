@@ -1,7 +1,7 @@
 #
 # setup.py
 #
-# Copyright (c) 2016 Junpei Kawamoto
+# Copyright (c) 2016-2017 Junpei Kawamoto
 #
 # This file is part of rgmining-review.
 #
@@ -38,7 +38,7 @@ def _load_requires_from_file(filepath):
 
 setup(
     name='rgmining-review',
-    version='0.9.1',
+    version='0.9.2',
     author="Junpei Kawamoto",
     author_email="kawamoto.junpei@gmail.com",
     description="Review data structure for Review graph mining project",
@@ -48,12 +48,12 @@ setup(
     test_suite='tests.suite',
     license="GPLv3",
     classifiers=[
-            "Development Status :: 4 - Beta",
-            "Intended Audience :: Science/Research",
-            "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
-            "Natural Language :: English",
-            "Programming Language :: Python",
-            "Topic :: Software Development :: Libraries",
-            "Topic :: Scientific/Engineering :: Information Analysis"
-        ]
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Science/Research",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "Natural Language :: English",
+        "Programming Language :: Python",
+        "Topic :: Software Development :: Libraries",
+        "Topic :: Scientific/Engineering :: Information Analysis"
+    ]
 )
