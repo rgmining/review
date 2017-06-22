@@ -9,24 +9,24 @@ review package
 Submodules
 ----------
 
-review.base module
-------------------
+review\.base module
+-------------------
 
 .. automodule:: review.base
     :members:
     :undoc-members:
     :show-inheritance:
 
-review.histogram module
------------------------
+review\.histogram module
+------------------------
 
 .. automodule:: review.histogram
     :members:
     :undoc-members:
     :show-inheritance:
 
-review.scalar module
---------------------
+review\.scalar module
+---------------------
 
 .. automodule:: review.scalar
     :members:
